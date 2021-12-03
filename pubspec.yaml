@@ -10,7 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_form_builder: ^7.0.0
+  flutter_form_builder:
+    git:
+      url: https://github.com/arrowlikeme/flutter_form_builder.git
+      path: packages/flutter_form_builder
   image_picker: ^0.8.4+4
 
   # http: ^0.13.1
